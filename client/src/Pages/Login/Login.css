@@ -1,0 +1,405 @@
+
+
+
+
+/*
+font-family: 'Pattaya', sans-serif;
+*/
+
+.Login__Home{
+    max-width: 80%;
+    margin: 6rem auto;
+    padding: 0rem;
+    outline: none;
+    display: flex;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+
+    
+    justify-content: center;
+}
+
+.aler{
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: #6495ed29;
+    border-radius: 0%;
+    padding: 0rem;
+    margin: 0rem auto;
+    width: 90%;
+    height: 2rem;
+    line-height: 2rem;
+    display: block;
+    outline: none;
+    color: #878b93;
+    box-shadow: 0rem 0rem 0.6rem #eee;
+}
+
+
+.login_photo{
+  
+}
+
+.Login__Form{
+
+    width: 30%;
+    display: block;
+    padding: 0rem;
+    margin: 0rem;
+   
+}
+
+
+
+
+.login____{
+    margin: 0.5rem auto;
+    width: 90%;
+    padding: 0rem;
+    background-color: #fff;
+    display: block;
+    box-shadow: 0rem 0rem 0.2rem #9b9797;
+}
+
+.login____ p{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 2rem;
+    margin: 0rem auto;
+}
+
+._form_{
+
+
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0rem auto;
+     
+}
+.input_first_input__{
+
+    margin: 0.6rem auto;
+    padding: 0rem;
+    font-size: 17px;
+    font-family: monospace;
+    width: 80%;
+    height:  2.7rem;
+    display: block;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #fafafa;
+    box-shadow: 0rem 0rem 0.1rem rgba(150, 148, 148, 0.685);
+    padding-left: 0.5rem;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: none;
+  
+}
+.now_eror{
+    overflow: hidden;
+    font-size: 15px;
+    color: red;
+    margin: 0rem auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.butt{
+    margin: 0.6rem auto;
+    padding: 0rem;
+    font-size: 17px;
+    font-family: monospace;
+    width: 80%;
+    height:  2.7rem;
+    display: block;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #b2dffc;
+    box-shadow: 0rem 0rem 0.1rem rgba(150, 148, 148, 0.685);
+    text-align: center;
+    color: #fff;
+    line-height: 2.7rem;
+    padding-left: 0.5rem;
+    cursor: pointer;
+    transition: .4s;
+}
+.butt:hover{
+    background-color: #0a8ee6;
+}
+
+._or_{
+    padding: 0rem;
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    overflow: hidden;
+}
+._or_  ._first{
+    padding: 0rem;
+    margin: 0rem;
+    width: 50%;
+    background: #eee;
+    height: 0.2rem;
+   
+}
+._or_ ._center{
+    font-size: 27px;
+    font-family: monospace;
+    margin: 0rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+._or_  ._last{
+    padding: 0rem;
+    margin: 0rem;
+    width: 50%;
+    background: #eee;
+    height: 0.2rem;
+}
+
+
+
+
+
+.facebook{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    justify-content: center;
+    padding: 0rem;
+    
+   
+  
+}
+
+.facebook____login{
+
+    display: flex;
+    align-items: center;
+    margin: 0.9rem auto;
+    
+    justify-content: center;
+    
+    padding: 0rem;
+    
+    
+}
+.facebook____login_imge{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0rem;
+    margin: 0rem;
+}
+.facebook____login p{
+    font-size: 18px;
+    font-family: monospace;
+    color: #385185;
+    padding: 0rem;
+    margin: 0rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+.facebook____forgot{
+    display: block;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem auto 4rem auto;
+}
+.facebook____forgot p{
+    font-size: 16px;
+    font-family: monospace;
+    margin: 0rem auto;
+    text-align: center;
+    padding: 0rem;
+    cursor: pointer;
+}
+
+
+
+.ner_sigup{
+    margin: 0.5rem auto;
+    width: 90%;
+    padding: 0rem;
+    background-color: #fff;
+    display: block;
+    box-shadow: 0rem 0rem 0.2rem #9b9797;
+    
+}
+.ner_sigup p {
+    text-align: center;
+    margin: 0rem;
+    padding: 1rem;
+    font-size: 18px;
+    font-family: emoji;
+   
+}
+.ner_sigup .Link{
+    padding-left: 0.5rem;
+    color: #0095f6;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.login_photo img{
+    width: 402px;
+    height: 100%;
+}
+.login____ span {
+    font-size: 13px;
+}
+
+
+
+.loading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.123);
+    z-index: 344567;
+   
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    transform-style: preserve-3d;
+    transform: scale(0);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4 ease, visibility .4 ease, transform .4 easw-in-out;
+    transition: .4s ease;
+
+}
+
+.loading.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.loading_full{
+    display: flex;
+    width: 30%;
+    height: 0.4rem;
+    background: white;
+    margin: 0rem auto;
+    align-items: center;
+    border-radius: 0.1rem;
+    border: none;
+    outline: none;
+    padding: 0rem;
+}
+.loading_full p {
+    background: #0a8ee6;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.aler_ccc{
+    
+}
+
+@media  (max-width: 1200px){
+
+
+    .Login__Home{
+        max-width: 90%;
+        margin: 6rem auto;
+        align-items: center;
+        
+
+    }
+    .login_photo{
+        width: 50%;
+    }
+    .login_photo img{
+        width: 300px;
+        height: 500px;
+        margin: 0rem auto;
+        padding: 0rem;
+        display: block;
+    }
+
+    .login____{
+        width: 70%;
+    }
+    .ner_sigup{
+        width: 70%;
+    }
+    
+    
+    .Login__Form{
+    
+        width: 50%;
+        display: block;
+        padding: 0rem;
+        margin: 0rem;
+       
+    }
+}
+
+
+@media  (max-width: 700px){
+
+
+  
+    .Login__Home{
+        max-width: 100%;
+        margin: 1rem auto;
+        padding: 0rem;
+        outline: none;
+        display: block;
+        
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .login_photo{
+        display: none;
+    }
+    
+    .Login__Form{
+    
+        width: 90%;
+        display: block;
+        padding: 0rem;
+        margin: 0rem auto;
+       
+    }
+
+
+}
+
+@media  (max-width: 500px){
+
+    .Login__Home{
+
+        margin: 1rem auto;
+
+    }
+    .Login__Form{
+        width: 90%;
+    }
+    .login____{
+        width: 90%;
+    }
+    .ner_sigup{
+        width: 90%;
+    }
+
+ 
+}

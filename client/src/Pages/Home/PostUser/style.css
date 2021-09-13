@@ -1,0 +1,110 @@
+.color_heart.fa-heart:before{
+    color: red;
+}
+
+.viws_like_user{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.11);
+position: fixed;
+top: 0rem;
+left: 0rem;
+z-index: 56789;
+opacity: 0;
+visibility: hidden;
+transform: scale(0);
+transition: opacity .4s ease, visibility .4 ease, transform .6 ease-in-out;
+}
+
+.viws_like_user.open{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.like_____
+{
+    text-align: center;
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+
+.ModelImageViews{
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.479);
+    z-index: 10000000000000000000000000000000000000000;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    opacity: 0;
+    visibility: hidden;
+    transform-style: preserve-3d;
+    transform: scale(0);
+    transition: opacity .4s ease, visibility .4s ease, transform .4s;
+}
+.ModelImageViews.open{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.colos_xx{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 30px;
+    color: #FFF;
+    cursor: pointer;
+    transition: .6s;
+    
+}
+.colos_xx:hover{
+
+ 
+ outline:none;
+
+ padding: 0.2rem;
+}
+
+.ImageViews{
+
+    background-color: #fff;
+    width: 37%;
+    height: 706px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    box-shadow: 0rem 0rem 0.4rem #eee;
+    cursor: pointer;
+    transition: .10s;
+    margin: 4rem auto;
+    transform-style: preserve-3d;
+    animation: trans 3s;
+   
+}
+
+
+@media (max-width:800px){
+    .ImageViews{
+        width: 100%;
+        height: 100%;
+    }
+
+    .colos_xx{
+        z-index: 345678;
+    }
+}

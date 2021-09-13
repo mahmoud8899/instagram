@@ -1,0 +1,63 @@
+
+
+.post_text_user
+{
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 12px;
+  
+    text-transform: capitalize;
+    font-family: 'Font Awesome 5 Free';
+    color: #0000ff99;
+    overflow: hidden;
+}
+
+.post_text_name{
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.model_close{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;
+    z-index: 24356787;
+}
+
+
+
+.player-wrapper {
+ 
+   width: 100%;
+   height: 100%;
+   padding: 0rem;
+   margin: 0rem auto;
+  
+    
+  }
+  
+  .react-player {
+  padding: 0rem;
+  margin: 0rem;
+  width: 100%;
+  height: 100%;
+    background-color: black;
+  }
+
+.fa-heart.fa-red{
+      color: red;
+}
+
+.notFollo{
+  text-align: center;
+  font-size: 17px;
+  margin: 0rem auto;
+  font-family: 'Raleway';
+  width: 74%;
+  border-top: 1px solid #e7e3dd;
+  border-bottom: 1px solid #e7e3dd;
+  padding: 1rem;
+}

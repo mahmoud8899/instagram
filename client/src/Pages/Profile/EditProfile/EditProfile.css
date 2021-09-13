@@ -1,0 +1,270 @@
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+
+.profile_Edit{
+
+    width: 70%;
+    margin: 7rem auto;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    padding: 0rem;
+    overflow: hidden;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.profile_Edit_left{
+    width: 30%;
+    margin: 0rem;
+    padding: 0rem;
+    display: block;
+    border: none;
+    border: 1px solid #eee;
+    outline: none;
+    
+    
+}
+
+.profile_Edit_left p{
+    width: 80%;
+    margin: 1rem auto;
+    font-family: monospace;
+    opacity: 0.8;
+    text-align: left;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+.profile_Edit_left p:hover{
+    opacity: 1;
+}
+
+
+/* Start Edit... */
+
+
+.profile_Edit_Rinht{
+    width: 90%;
+    margin: 0rem;
+    padding: 0rem;
+    display: block;
+    border: none;
+    border: 1px solid #eee;
+    outline: none;
+    word-wrap: break-word;
+    
+    
+}
+
+
+.profile_Edit_Rinht_Info{
+    
+width: 90%;
+display: block;
+
+margin: 0.4rem auto;
+
+
+    
+}
+.profile_Edit_Rinht_Info_s{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0rem auto;
+    padding: 0rem;
+   
+    padding: 1rem;
+   
+}
+.profile_Edit_Rinht_Image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    opacity: 0.9;
+    transition: all 0.02s;
+    border: 2px solid rgb(233 30 99 / 22%);
+    cursor: pointer;
+}
+.profile_Edit_Rinht_Image:hover{
+    opacity: 1;
+}
+.profile_Edit_Rinht_Info_name{
+padding-left: 1rem;
+text-transform: capitalize;
+font-size: 13px;
+
+}
+
+
+.List_Edit{
+    list-style: none;
+    width: 90%;
+    display: block;
+
+}
+.List_Edit li {
+    display: flex;
+    width: 100%;
+    padding: 0rem;
+    flex-direction: column;
+    margin: 0.6rem auto;
+
+}
+
+.List_Edit li .first_input{
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin: 0.4rem;
+}
+.Name_input{
+    width: 10%;
+    font-family: inherit;
+}
+.List_Edit li .last_andra{
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    margin: 0rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 0rem 0rem 0rem 0.1rem #eeeeee94;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: monospace;
+    outline: none;
+}
+
+.last_andra p {
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 0rem;
+    margin: 0rem;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-family: inherit;
+}
+textarea{
+    width: 50%;
+    height: 50px;
+    border: none;
+    margin: 0rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 0rem 0rem 0rem 0.1rem #eeeeee7d;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: monospace;
+    outline: none;
+
+}
+
+
+
+.submit_button{
+    width: 90%;
+    height: auto;
+    display: block;
+  
+    padding: 0rem;
+    margin: 0.4rem auto;
+
+}
+.submit_button button {
+    width: 191px;
+    height: 31px;
+    font-size: 13px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0rem 0.1rem #eee;
+    background-color: #1717f070;
+    color: #fff;
+    font-family: monospace;
+    transition: all 0.02;
+    opacity: 1;
+    cursor: pointer;
+    transition: .4s;
+}.submit_button button:hover{
+    background-color: #1717f0a9;
+}
+
+
+@media  (max-width : 900px) {
+
+    .profile_Edit{
+        width: 100%;
+    }
+    .profile_Edit_left{
+        display: none;
+    }.profile_Edit_Rinht{
+        width: 100%;
+        margin: 4rem auto;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:600px){
+    .profile_Edit{
+        width: 98%;
+        margin: 0rem auto;
+    }
+    .List_Edit{
+        width: 100%;
+        margin: 0rem auto;
+        padding: 0rem;
+    }
+
+    .List_Edit li{
+   
+    margin: 0rem auto;
+    width: 95%;
+    padding: 0rem;
+    }.first_input{
+        width: 90%;
+        overflow: hidden;
+    }
+    .Name_input{
+width: auto;
+    padding: 0rem;
+    margin: 0rem;
+    text-align: center;
+    }
+    input{
+        margin-left: auto;
+    }
+    textarea{
+        margin-left: auto;
+    }
+}
+/* End Edit... */

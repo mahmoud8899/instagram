@@ -1,0 +1,78 @@
+.Followare___Home{
+  
+    width: 50%;
+    margin: 10rem auto;
+    border-radius: 0.3rem;
+    padding: 0rem;
+    display: block;
+}
+
+
+.Suggested__Home{
+    width: 80%;
+    margin: 0.9rem auto;
+    
+    display: block;
+    text-transform: capitalize;
+    font-size: 19px;
+    font-family: monospace;
+
+}
+
+.Follow_x{
+    width: 90%;
+    margin: 0.2rem auto;
+    padding: 0rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3rem;
+    outline: none;
+    border:none;
+    box-shadow: 0rem 0rem 0.1rem #c3baba;
+    overflow: hidden;
+    
+    
+}
+.user_info_followare{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.1rem auto;
+    width: 90%;
+    padding: 0rem;
+    
+}
+.user_info_followare_image{
+    width: 50px;
+   height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+.user_info_followare_name{
+    padding-left: 1.5rem;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: inherit;
+}
+.user_info_followare_follow{
+    margin-left: auto;
+    background-color: #0095f6;
+    padding: 0.4rem;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+
+@media  (max-width: 900px) {
+  
+    .Followare___Home{
+        width: 100%;
+    }
+}

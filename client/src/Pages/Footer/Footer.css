@@ -1,0 +1,71 @@
+.Footer___Home__{
+
+    width: 100%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+}
+
+
+.Footer___Home__List{
+    width: 40%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    margin: 0.1rem auto; 
+    align-items: center;
+    padding: 0rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Footer___Home__List li {
+    font-size: 15px;
+    font-family: 'Raleway';
+    padding: 0rem;
+    margin: 0rem;
+    cursor: pointer;
+}
+
+.Selector{
+    width: 50%;
+    height: auto;
+    display: flex;
+    list-style: none;
+    margin: 1rem auto; 
+    align-items: center;
+    padding: 0rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cars{
+    border: 0rem;
+    background-color: none;
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+
+.from_Facebook{
+    padding-left: 1rem;
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+
+
+@media (max-width:600px){
+    .Footer___Home__{
+        
+        width: 100%;
+
+    }
+    .list ul {
+        font-size: 19px;
+    }
+    .Footer___Home__List{
+        width: 100%;
+    }
+    .Selector{
+        
+        width: 100%;
+    }
+}

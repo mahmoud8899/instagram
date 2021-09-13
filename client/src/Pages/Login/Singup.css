@@ -1,0 +1,70 @@
+.Frinds_singUP{
+    width: 100%;
+    display: block;
+    padding: 0rem;
+    margin: 0.7rem auto;
+    height: auto;
+}
+
+.Frinds_singUP p {
+    font-size: 18px;
+    font-family: monospace;
+    width: 90%;
+    overflow: hidden;
+    padding: 0rem;
+    margin: 0rem auto;
+    color: #7d6f6f;
+}
+
+.facebook____login_xp{
+    width: 90%;
+    margin: 0rem auto;
+    padding: 0rem;
+    display: flex;
+    background: #0095f6;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    height: 2rem;
+}
+.facebook____login_xp img{
+    max-width: 30px;
+    max-height: 30px;
+    padding: 0rem;
+    margin: 0rem;
+}
+.facebook____login_xp p {
+    font-size: 18px;
+    font-family: monospace;
+    padding-left: 0.4rem;
+    margin: 0rem;
+    color: #fff;
+}
+
+.Terms{
+    width: 90%;
+    padding: 0rem;
+    display: block;
+    height: 7rem;
+    margin: 0rem auto;
+}
+.Terms p{
+    font-size: 15px;
+    font-family: 'Raleway';
+    padding: 0rem;
+    overflow: hidden;
+    margin: 2rem auto;
+}
+
+.Facebook_loagin{
+    color: white;
+    margin-left: 2rem;
+}
+@media (max-width: 500px){
+    .Facebook_loagin{
+        margin-left: 1rem;
+    }
+}
